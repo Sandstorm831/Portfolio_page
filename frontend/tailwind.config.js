@@ -7,6 +7,7 @@ export default {
     "src/App.jsx",
     "src/components/sideliner/index.jsx",
     "src/components/navbar/index.jsx",
+    "src/components/bottombar/index.jsx",
   ],
   theme: {
     fontFamily: {
