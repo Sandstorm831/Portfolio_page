@@ -10,13 +10,13 @@ export default function Root(){
     useEffect(()=>{
         navigate("/home")
     }, [])
-    return <div className="font-pixelated flex">
+    return <div className="font-pixelated flex h-max">
         <div className="w-16 h-screen relative">
             <div className="fixed w-16"><Sideline /></div> 
         </div>
         <div className="h-screen w-full relative flex flex-col justify-between">
             <div ><Navbar /></div>
-            <div className="h-full"><Outlet /></div>
+            <div className="h-max"><Outlet /></div>
             <div ><BottomNavbar /></div>
         </div>
     </div>
