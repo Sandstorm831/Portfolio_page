@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col justify-center mb-12">
-        <div className="flex justify-center text-5xl text-white mt-2 text-[150px]">
+        <div className="flex justify-center text-white mt-2 text-[150px]">
           {"<about_me>"}
         </div>
         <div className="text-[#E6DB74] text-2xl flex justify-center">
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="text-[#9A99FF] text-4xl ">{"(!)"}</div>
       </div>
       <div className="flex justify-center">
-        <div className="text-5xl text-white mt-2 text-[150px]">
+        <div className="flex justify-center text-white mt-2 text-[150px]">
           {"<portfolio>"}
         </div>
       </div>
@@ -75,7 +75,7 @@ export default function Home() {
       <div className="flex justify-center mx-2 h-max">
         <div className="flex flex-col justify-center w-1/2">
           <div className="flex bg-white">
-            <div className="bg-[url('src/pages/home/todo_fullstack1.png')] w-full h-[500px] bg-fixed bg-no-repeat bg-cover bg-top" >A To-Do App</div>
+            <div className="bg-[url('src/pages/home/todo_fullstack1.png')] w-full h-[500px] bg-fixed bg-no-repeat bg-cover bg-topP>P" >A To-Do App</div>
           </div>
         </div>
         <div className="flex flex-col justify-center w-1/2">
@@ -94,7 +94,7 @@ export default function Home() {
         <div className="text-[#9A99FF] text-4xl ">{"(*)"}</div>
       </div>
       <div className="flex justify-center">
-        <div className="text-5xl text-white mt-2 text-[150px]">
+        <div className="flex justify-center text-white mt-2 text-[150px]">
           {"<contact_me>"}
         </div>
       </div>
