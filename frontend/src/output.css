@@ -610,6 +610,11 @@ video {
   margin-right: 20rem;
 }
 
+.my-\[5px\] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -662,6 +667,14 @@ video {
   margin-top: 2rem;
 }
 
+.ml-\[2px\] {
+  margin-left: 2px;
+}
+
+.mr-\[50px\] {
+  margin-right: 50px;
+}
+
 .flex {
   display: flex;
 }
@@ -683,6 +696,10 @@ video {
   height: 100vh;
 }
 
+.h-\[450px\] {
+  height: 450px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -693,6 +710,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .cursor-pointer {
@@ -761,6 +782,10 @@ video {
   background-image: url('src/pages/home/todo_fullstack1.png');
 }
 
+.bg-\[url\(\'src\/pages\/home\/geometrhy\.png\'\)\] {
+  background-image: url('src/pages/home/geometrhy.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -775,6 +800,11 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .p-8 {

@@ -13,17 +13,7 @@ export default function Home() {
         {'{" FULL-STACK DEVELOPER "}'}
       </div>
       <div className="h-max">
-        <div
-          className="bg-fixed flex flex-col overflow-scroll"
-          style={{
-            backgroundImage: `url(src/pages/home/geometrhy.png)`,
-            backgroundRepeat: `no-repeat`,
-            maxWidth: `100%`,
-            height: `450px`,
-            margin: `5px 50px 5px 2px`,
-            objectFit: `scale-down`,
-          }}
-        ></div>
+        <div className="bg-fixed flex flex-col overflow-scroll bg-[url('src/pages/home/geometrhy.png')] bg-no-repeat max-w-full h-[450px] my-[5px] mr-[50px] ml-[2px] bg-fixed object-scale-down"></div>
       </div>
       <div>
         <div className="flex justify-center text-5xl text-[#9A99FF] mt-44">
@@ -73,23 +63,9 @@ export default function Home() {
       </div>
 
       <div className="flex justify-center mx-2 h-max">
-        <div className="flex flex-col justify-center w-1/2">
-          <div className="flex bg-white">
-            <div className="bg-[url('src/pages/home/todo_fullstack1.png')] w-full h-[500px] bg-fixed bg-no-repeat bg-cover bg-topP>P" >A To-Do App</div>
-          </div>
-        </div>
-        <div className="flex flex-col justify-center w-1/2">
-          <div className="flex justify-center">
-            <img
-              src="src/pages/home/recipe_app2.png"
-              width={300}
-              height={500}
-              alt="An image"
-            />
-            <div>A Recipee App</div>
-          </div>
-        </div>
+      
       </div>
+
       <div className="flex justify-center mt-32">
         <div className="text-[#9A99FF] text-4xl ">{"(*)"}</div>
       </div>
