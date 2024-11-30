@@ -8,6 +8,11 @@ export default {
     "src/components/sideliner/index.jsx",
     "src/components/navbar/index.jsx",
     "src/components/bottombar/index.jsx",
+    "src/components/fixedImage/fixedImage.jsx",
+    "src/components/aboutMe/index.jsx",
+    "src/components/contactMe/index.jsx",
+    "src/components/homeIntro/index.jsx",
+    "src/components/portfolio/index.jsx"
   ],
   theme: {
     fontFamily: {
