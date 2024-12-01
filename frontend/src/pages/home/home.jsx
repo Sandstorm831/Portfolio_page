@@ -15,8 +15,6 @@ export default function Home() {
 
       <AboutMe />
 
-      <AButton />
-
       <div className="flex justify-center mt-32 text-[#9A99FF] text-5xl">
         {"(!)"}
       </div>
