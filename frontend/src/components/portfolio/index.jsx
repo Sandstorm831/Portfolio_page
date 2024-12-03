@@ -1,4 +1,4 @@
-import "../../output.css"
+import "../../output.css";
 export default function PortfolioDiv() {
   return (
     <>
@@ -11,19 +11,23 @@ export default function PortfolioDiv() {
         <LeftDiv
           Source={"src/assets/todo_fullstack1.png"}
           Title={"To-Do Applicatoin"}
-          Description={"Description of the ToDo Web Application"}
+          Description={
+            "This is a simple To-Do app where users can create tasks, mark them as done, and delete them."
+          }
         />
 
         <RightDiv
           Source={"src/assets/recipe_app2.png"}
           Title={"Recipe Web Applicatoin"}
-          Description={"Description of the Recipe-App Web Application"}
+          Description={
+            "Recipe App is a web application that offers a wide variety of recipes for different dishes. Simply enter an ingredient, and the app will display recipes that include it. You can then view detailed recipe instructions, save your favorites for later, and access all your saved recipes on the Favorites page."
+          }
         />
 
         <LeftDiv
           Source={"src/assets/weatherApp2.png"}
-          Title={"Weather App"}
-          Description={"Description of the Weather Web Application"}
+          Title={"Weather Web Application"}
+          Description={"Weather App is a user-friendly web application that provides real-time weather information for any city worldwide. To enhance performance, I implemented a debouncer and an API aborter to handle requests efficiently. Additionally, I included a sleek loading animation to improve the overall user experience."}
         />
       </div>
     </>
@@ -33,7 +37,7 @@ export default function PortfolioDiv() {
 function LeftDiv({ Source, Title, Description }) {
   return (
     <div className="flex justify-start w-full mt-8">
-      <div className="flex justify-start border-r-8 border-t-[#EAF2EF] border-r-[#EAF2EF] rounded-lg bg-[#EAF2EF] text-[#212121]">
+      <div className="flex justify-start border-r-8 border-t-[#EAF2EF] border-r-[#EAF2EF] rounded-lg bg-[#EAF2EF] text-[#212121] w-[1700px]">
         <img
           src={Source}
           alt="WeatherTellerImage"
@@ -41,8 +45,8 @@ function LeftDiv({ Source, Title, Description }) {
           className="rounded-lg shadow-lg shadow-slate-700"
         />
         <div className="flex flex-col mx-5 my-1">
-          <div>{`{ ${Title} }`}</div>
-          <div>{Description}</div>
+          <div className="text-5xl mb-5 text-[#104f55]">{`{ ${Title} }`}</div>
+          <div className="text-2xl">{Description}</div>
         </div>
       </div>
     </div>
@@ -52,10 +56,10 @@ function LeftDiv({ Source, Title, Description }) {
 function RightDiv({ Source, Title, Description }) {
   return (
     <div className="flex justify-end w-full mt-8">
-      <div className="flex justify-end bg-[#E6DB74] border-[#E6DB74] border-l-8 border-l-[#E6DB74] rounded-lg w-max">
+      <div className="flex justify-end bg-[#E6DB74] border-[#E6DB74] border-l-8 border-l-[#E6DB74] rounded-lg w-[1700px]">
         <div className="flex flex-col mx-5 my-1">
-          <div>{`{ ${Title} }`}</div>
-          <div>{Description}</div>
+          <div className="text-5xl mb-5 text-[#26547c]">{`{ ${Title} }`}</div>
+          <div className="text-2xl">{Description}</div>
         </div>
         <img
           src={Source}

@@ -12,7 +12,8 @@ export default {
     "src/components/aboutMe/index.jsx",
     "src/components/contactMe/index.jsx",
     "src/components/homeIntro/index.jsx",
-    "src/components/portfolio/index.jsx"
+    "src/components/portfolio/index.jsx",
+    "src/components/blogSection/index.jsx"
   ],
   theme: {
     fontFamily: {

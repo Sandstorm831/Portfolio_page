@@ -4,6 +4,7 @@ import FixedImage from "../../components/fixedImage/fixedImage";
 import AboutMe from "../../components/aboutMe";
 import PortfolioDiv from "../../components/portfolio";
 import ContactDiv from "../../components/contactMe";
+import BlogSection from "../../components/blogSection";
 export default function Home() {
   return (
     <div className="bg-[#212121] h-full flex flex-col">
@@ -23,6 +24,12 @@ export default function Home() {
 
       <div className="flex justify-center mt-32 text-[#9A99FF] text-5xl ">
         {"(*)"}
+      </div>
+
+      <BlogSection />
+
+      <div className="flex justify-center mt-32 text-[#9A99FF] text-5xl ">
+        {"(#)"}
       </div>
 
       <ContactDiv />
