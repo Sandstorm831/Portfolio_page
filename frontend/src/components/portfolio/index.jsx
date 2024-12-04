@@ -9,7 +9,7 @@ export default function PortfolioDiv() {
       </div>
       <div className="flex flex-col h-max mx-2">
         <LeftDiv
-          Source={"src/assets/todo_fullstack1.png"}
+          Source={"/static/images/todo_fullstack1.png"}
           Title={"To-Do Applicatoin"}
           Description={
             "This is a simple To-Do app where users can create tasks, mark them as done, and delete them."
@@ -17,7 +17,7 @@ export default function PortfolioDiv() {
         />
 
         <RightDiv
-          Source={"src/assets/recipe_app2.png"}
+          Source={"/static/images/recipe_app2.png"}
           Title={"Recipe Web Applicatoin"}
           Description={
             "Recipe App is a web application that offers a wide variety of recipes for different dishes. Simply enter an ingredient, and the app will display recipes that include it. You can then view detailed recipe instructions, save your favorites for later, and access all your saved recipes on the Favorites page."
@@ -25,7 +25,7 @@ export default function PortfolioDiv() {
         />
 
         <LeftDiv
-          Source={"src/assets/weatherApp2.png"}
+          Source={"/static/images/weatherApp2.png"}
           Title={"Weather Web Application"}
           Description={"Weather App is a user-friendly web application that provides real-time weather information for any city worldwide. To enhance performance, I implemented a debouncer and an API aborter to handle requests efficiently. Additionally, I included a sleek loading animation to improve the overall user experience."}
         />
