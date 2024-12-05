@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -933,6 +937,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[100px\] {
+  font-size: 100px;
 }
 
 .font-bold {

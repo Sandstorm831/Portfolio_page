@@ -13,7 +13,8 @@ export default {
     "src/components/contactMe/index.jsx",
     "src/components/homeIntro/index.jsx",
     "src/components/portfolio/index.jsx",
-    "src/components/blogSection/index.jsx"
+    "src/components/blogSection/index.jsx",
+    "src/pages/error/error.jsx",
   ],
   theme: {
     fontFamily: {
