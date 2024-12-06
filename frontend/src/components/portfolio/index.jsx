@@ -1,7 +1,7 @@
 import "../../output.css";
 export default function PortfolioDiv() {
   return (
-    <>
+    <div className="flex flex-col">
       <div className="flex justify-center">
         <div className="flex justify-center text-white mt-2 text-[150px]">
           {"<portfolio>"}
@@ -30,23 +30,24 @@ export default function PortfolioDiv() {
           Description={"Weather App is a user-friendly web application that provides real-time weather information for any city worldwide. To enhance performance, I implemented a debouncer and an API aborter to handle requests efficiently. Additionally, I included a sleek loading animation to improve the overall user experience."}
         />
       </div>
-    </>
+    </div>
   );
 }
 
 function LeftDiv({ Source, Title, Description }) {
   return (
     <div className="flex justify-start w-full mt-8">
-      <div className="flex justify-start border-r-8 border-t-[#EAF2EF] border-r-[#EAF2EF] rounded-lg bg-[#EAF2EF] text-[#212121] w-[1700px]">
-        <img
-          src={Source}
-          alt="WeatherTellerImage"
-          width={1400}
-          className="rounded-lg shadow-lg shadow-slate-700"
-        />
-        <div className="flex flex-col mx-5 my-1">
-          <div className="text-5xl mb-5 text-[#104f55]">{`{ ${Title} }`}</div>
-          <div className="text-2xl">{Description}</div>
+      <div className="flex max-xl:flex-col max-xl:w-full xl:w-11/12 justify-start border-r-8 border-t-[#EAF2EF] border-r-[#EAF2EF] rounded-lg bg-[#EAF2EF] text-[#212121]">
+        <div className="max-xl:w-full xl:w-4/5">
+          <img
+            src={Source}
+            alt="LeftImage"
+            className="rounded-lg shadow-lg shadow-slate-700 w-full"
+          />
+        </div>
+        <div className="flex flex-col xl:w-1/5 max-xl:my-8 xl:my-1 max-xl:mx-24 xl:mx-5">
+          <div className="text-5xl mb-5 text-[#104f55] max-xl:flex max-xl:justify-center ">{`{ ${Title} }`}</div>
+          <div className="text-2xl max-xl:flex max-xl:justify-center">{Description}</div>
         </div>
       </div>
     </div>
@@ -56,17 +57,18 @@ function LeftDiv({ Source, Title, Description }) {
 function RightDiv({ Source, Title, Description }) {
   return (
     <div className="flex justify-end w-full mt-8">
-      <div className="flex justify-end bg-[#E6DB74] border-[#E6DB74] border-l-8 border-l-[#E6DB74] rounded-lg w-[1700px]">
-        <div className="flex flex-col mx-5 my-1">
-          <div className="text-5xl mb-5 text-[#26547c]">{`{ ${Title} }`}</div>
-          <div className="text-2xl">{Description}</div>
+      <div className="flex max-xl:flex-col max-xl:w-full xl:w-11/12 justify-end w-11/12 bg-[#E6DB74] border-[#E6DB74] border-l-8 border-l-[#E6DB74] rounded-lg ">
+        <div className="flex flex-col xl:w-1/5 max-xl:my-8 xl:my-1 max-xl:mx-24 xl:mx-5">
+          <div className="text-5xl mb-5 text-[#26547c] max-xl:flex max-xl:justify-center ">{`{ ${Title} }`}</div>
+          <div className="text-2xl max-xl:flex max-xl:justify-center">{Description}</div>
         </div>
-        <img
-          src={Source}
-          alt="Recipe App Image"
-          width={1400}
-          className="rounded-lg shadow-lg shadow-slate-700"
-        />
+        <div className="max-xl:w-full xl:w-4/5">
+          <img
+            src={Source}
+            alt="RightImage"
+            className="rounded-lg shadow-lg shadow-slate-700 w-full"
+          />
+        </div>
       </div>
     </div>
   );

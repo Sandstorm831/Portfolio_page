@@ -7,7 +7,7 @@ import ContactDiv from "../../components/contactMe";
 import BlogSection from "../../components/blogSection";
 export default function Home() {
   return (
-    <div className="bg-[#212121] h-full flex flex-col">
+    <div className="bg-[#212121] flex flex-col">
       <IntroDiv />
       <FixedImage />
       <div className="flex justify-center text-5xl text-[#9A99FF] mt-44">

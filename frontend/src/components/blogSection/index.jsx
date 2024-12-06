@@ -37,12 +37,12 @@ export default function BlogSection() {
 
 function BlogHolder({ date, title, description, link }) {
   return (
-    <div className="flex justify-between border-t border-b border-t-[#3C3C3C] border-b-[#3C3C3C] h-max">
-      <div className="flex justify-between w-1/2 border-r border-r-[#3C3C3C] pt-8 pb-8">
-        <div className="text-[#2FCBEF] ml-24 text-xl">{`{ ${date} }`}</div>
+    <div className="flex max-xl:flex-col xl:justify-between border-t border-b border-t-[#3C3C3C] border-b-[#3C3C3C] h-max">
+      <div className="flex justify-between max-xl:w-full xl:w-1/2 border-r border-r-[#3C3C3C] pt-8 pb-8">
+        <div className="text-[#2FCBEF] ml-24 text-xl max-xl:flex max-xl:flex-col max-xl:justify-center">{`{ ${date} }`}</div>
         <div className="text-[#EAF2EF] mr-12 text-4xl w-96 flex">{`< ${title} >`}</div>
       </div>
-      <div className="w-1/2 text-[#e6db74] pt-8 pb-8 ml-8 mr-24 text-xl">
+      <div className="ax-xl:w-full xl:w-1/2  text-[#e6db74] pt-8 pb-8 ml-8 mr-24 text-xl">
         {description}
         {" ..."}
         <a href={link} className="text-[#2FCBEF]">

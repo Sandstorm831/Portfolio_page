@@ -6,23 +6,20 @@ export default function AboutMe() {
         <div className="flex justify-center text-white mt-2 text-[150px]">
           {"<about_me>"}
         </div>
-        <div className="text-[#E6DB74] text-2xl flex justify-center">
+        <div className="text-[#E6DB74] text-2xl flex justify-center mx-5">
           I am a Full-Stack Developer by Profession and an Engineer by Passion.
-          I like to do
-        </div>
-        <div className="text-[#E6DB74] text-2xl flex justify-center">
-          Calisthenics, Watch Movies and Read Books.
+          I like to do Calisthenics, Watch Movies and Read Books.
         </div>
       </div>
 
-      <div className="flex justify-center mx-80">
-        <div className="flex flex-col w-1/2 p-8 border-t border-r border-t-gray-700 border-r-gray-700 text-5xl text-white underline">
+      <div className="flex max-xl:flex-col max-xl:mx-8 justify-center xl:mx-80 ">
+        <div className="max-xl:w-full xl:w-1/2 p-8 border-t border-r border-t-gray-700 border-r-gray-700 text-5xl text-white underline">
           ...I am a 2024 IIT Roorkee Graduate and a passionate engineer with a
           strong background in front-end and back-end technologies in
-          JavaScript.
+          JavaScript environment.
         </div>
 
-        <div className=" w-1/2 p-8 border-t border-l border-t-gray-700 border-l-gray-700 text-[#E6DB74] text-2xl">
+        <div className="max-xl:w-full xl:w-1/2 p-8 border-t border-l border-t-gray-700 border-l-gray-700 text-[#E6DB74] text-2xl">
           …So It all starts with my operating system. I have decided to switch
           my OS from windows to Linux during my first semester of college, which
           marks my journey in the software engineering field. During my software

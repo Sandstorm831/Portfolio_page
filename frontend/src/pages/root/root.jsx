@@ -5,19 +5,25 @@ import Navbar from "../../components/navbar";
 import BottomNavbar from "../../components/bottombar";
 import { useEffect } from "react";
 
-export default function Root(){
-    const navigate = useNavigate();
-    useEffect(()=>{
-        navigate("/home")
-    }, [])
-    return <div className="font-pixelated flex h-max">
-        <div className="w-16 h-screen relative">
-            <div className="fixed w-16"><Sideline /></div> 
+export default function Root() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/home");
+  }, []);
+
+  return (
+    <div className="font-pixelated flex h-max">
+      <div className="w-10 md:w-16 h-max relative flex-none">
+        <div className="fixed w-full ">
+          <Sideline />
         </div>
-        <div className="h-screen w-full relative flex flex-col justify-between">
-            <div ><Navbar /></div>
-            <div className="h-max"><Outlet /></div>
-            <div ><BottomNavbar /></div>
-        </div>
+      </div>
+
+      <div className="relative flex flex-col">
+        <Navbar />
+        <Outlet />
+        <BottomNavbar />
+      </div>
     </div>
+  );
 }

@@ -7,7 +7,7 @@ import { AiFillRobot } from "react-icons/ai";
 export default function ErrorPage() {
   return (
     <div className="font-pixelated flex h-max">
-      <div className="w-16 h-screen relative">
+      <div className="w-10 md:w-16 h-screen relative flex-none">
         <div className="fixed w-16">
           <Sideline />
         </div>
@@ -20,7 +20,7 @@ export default function ErrorPage() {
         <div className="flex justify-center text-[100px]" ><AiFillRobot /></div>
           <div className="flex justify-center m-5">404 Error, Ohh Shoot ...</div>
           <div className="flex justify-center m-5">
-            I thing you probably have reached a dead-end ...
+            I think you probably have reached a dead-end ...
         </div>
           <div className="flex justify-center m-5">
             As this path doesn't exist, so you should trace back your steps.
