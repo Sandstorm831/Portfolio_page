@@ -10,7 +10,7 @@ export default function AboutMe() {
           I am a Full-Stack Developer by Profession and an Engineer by Passion.
           I like to do Calisthenics, Watch Movies and Read Books.
         </div>
-      </div>
+      </div>.
 
       <div className="flex max-xl:flex-col max-xl:mx-8 justify-center xl:mx-80 ">
         <div className="max-xl:w-full xl:w-1/2 p-8 border-t border-r border-t-gray-700 border-r-gray-700 text-5xl text-white underline">
