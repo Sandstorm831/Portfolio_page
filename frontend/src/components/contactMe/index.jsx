@@ -30,7 +30,7 @@ export default function ContactDiv() {
 
 function IconHolder({ children, title, link }) {
   return (
-    <a className="flex " href={link}>
+    <a className="flex" href={link} target="_blank" rel="noopener noreferrer">
       {children}
       <div className="text-white text-xl h-full flex flex-col justify-end">
         {title}

@@ -2,7 +2,7 @@ import "../../output.css";
 import IntroDiv from "../../components/homeIntro";
 import FixedImage from "../../components/fixedImage/fixedImage";
 import AboutMe from "../../components/aboutMe";
-import PortfolioDiv from "../../components/portfolio";
+import WorkDiv from "../../components/work";
 import ContactDiv from "../../components/contactMe";
 import BlogSection from "../../components/blogSection";
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         {"(!)"}
       </div>
 
-      <PortfolioDiv />
+      <WorkDiv />
 
       <div className="flex justify-center mt-32 text-[#9A99FF] text-5xl ">
         {"(*)"}

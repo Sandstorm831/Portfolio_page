@@ -45,7 +45,7 @@ function BlogHolder({ date, title, description, link }) {
       <div className="ax-xl:w-full xl:w-1/2  text-[#e6db74] pt-8 pb-8 ml-8 mr-24 text-xl">
         {description}
         {" ..."}
-        <a href={link} className="text-[#2FCBEF]">
+        <a href={link} className="text-[#2FCBEF]" target="_blank" rel="noopener noreferrer">
           read more
         </a>
       </div>
