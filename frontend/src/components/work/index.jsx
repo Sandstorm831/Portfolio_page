@@ -46,7 +46,7 @@ export default function WorkDiv() {
           live_demo_link={"https://portfoliodeployements.vercel.app/weatherapp"}
         />
         <div className="w-full h-24 mt-8 flex justify-center">
-          <div className="bg-white text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#EAF2EF] duration-500 cursor-pointer" onClick={()=>navigate("/projects")}>
+          <div className="bg-white text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#E6DB74] duration-500 cursor-pointer" onClick={()=>navigate("/projects")}>
             <div className="w-full flex justify-center ">
               View All 
             </div>
@@ -54,7 +54,7 @@ export default function WorkDiv() {
               Projects
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
   );

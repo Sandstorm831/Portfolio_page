@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "../../output.css";
 export default function AboutMe() {
   return (
@@ -10,13 +11,13 @@ export default function AboutMe() {
           I am a Full-Stack Developer by Profession and an Engineer by Passion.
           I like to do Calisthenics, Watch Movies and Read Books.
         </div>
-      </div>.
-
+      </div>
+      .
       <div className="flex max-xl:flex-col max-xl:mx-8 justify-center xl:mx-80 ">
         <div className="max-xl:w-full xl:w-1/2 p-8 border-t border-r border-t-gray-700 border-r-gray-700 text-5xl text-white underline">
           ...I am a 2024 IIT Roorkee Graduate and a passionate engineer with a
-          strong background in front-end and back-end technologies in
-          JavaScript environment.
+          strong background in front-end and back-end technologies in JavaScript
+          environment.
         </div>
 
         <div className="max-xl:w-full xl:w-1/2 p-8 border-t border-l border-t-gray-700 border-l-gray-700 text-[#E6DB74] text-2xl">
@@ -49,6 +50,13 @@ export default function AboutMe() {
           learning my way through it till now.
         </div>
       </div>
+      <a href="/resume.pdf"  className="w-full h-24 mt-8 flex justify-center" target="_blank" rel="noopener noreferrer" >
+        <div
+          className="bg-[#E6DB74] text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#EAF2EF] duration-500 cursor-pointer">
+          <div className="w-full flex justify-center ">View My</div>
+          <div className="w-full flex justify-center ">Resume</div>
+        </div>
+      </a>
     </>
   );
 }

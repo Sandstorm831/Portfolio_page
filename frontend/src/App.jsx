@@ -4,6 +4,7 @@ import ErrorPage from "./pages/error/error"
 import Home from "./pages/home/home"
 import { RecoilRoot } from "recoil"
 import Projects from "./pages/projects"
+import ResumePage from "./pages/resume"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <Route path="home" element={<Home />} />
               <Route path="projects" element={<Projects />} />
             </Route>
+            <Route path="/resume.pdf" element={<ResumePage />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </BrowserRouter>
