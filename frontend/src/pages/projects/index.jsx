@@ -3,6 +3,7 @@ import "../../output.css";
 
 export default function Projects() {
   const github_links = [
+    "https://github.com/Sandstorm831/transactions_app",
     "https://github.com/Sandstorm831/learning-backend/tree/main/toDoApp",
     "https://github.com/Sandstorm831/Learning-react/tree/main/recipie-app",
     "https://github.com/Sandstorm831/Learning-react/tree/main/weather-app",
@@ -10,9 +11,10 @@ export default function Projects() {
     "https://github.com/Sandstorm831/Learning-react/tree/main/shopping_cart",
     "https://github.com/Sandstorm831/Learning-react/tree/main/coalition_project",
     "https://github.com/Sandstorm831/Learning-react/tree/main/businessCards",
-    "https://github.com/Sandstorm831/Learning-react/tree/main/Tic_Tac_Toe"
+    "https://github.com/Sandstorm831/Learning-react/tree/main/Tic_Tac_Toe",
   ];
   const live_demo_links = [
+    "https://transactions-app-aleph.vercel.app/",
     "https://portfoliodeployements.vercel.app/todoapp",
     "https://portfoliodeployements.vercel.app/recipeapp",
     "https://portfoliodeployements.vercel.app/weatherapp",
@@ -20,9 +22,10 @@ export default function Projects() {
     "https://portfoliodeployements.vercel.app/shoppingcart",
     "https://portfoliodeployements.vercel.app/coalitionproject",
     "https://portfoliodeployements.vercel.app/businesscardapp",
-    "https://portfoliodeployements.vercel.app/tictactoe"
+    "https://portfoliodeployements.vercel.app/tictactoe",
   ];
   const sources = [
+    "/static/images/transactionsApp.png",
     "/static/images/todo_fullstack1.png",
     "/static/images/recipe_app2.png",
     "/static/images/weatherApp2.png",
@@ -33,6 +36,7 @@ export default function Projects() {
     "/static/images/tictactoe.png",
   ];
   const titles = [
+    "Transactions App",
     "To-Do Applicatoin",
     "Recipe Web Applicatoin",
     "Weather Web Application",
@@ -40,9 +44,10 @@ export default function Projects() {
     "Shopping Web Application",
     "Coalition CSS Project",
     "Business Card Application",
-    "Tic-Tac-Toe Game"
+    "Tic-Tac-Toe Game",
   ];
   const descriptions = [
+    "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails. The logout option is given in a popup menu which appears on clicking on the avatar on top right corner of the dashboard page.",
     "This is a simple To-Do app where users can create tasks, mark them as done, and delete them.",
     "Recipe App is a web application that offers a wide variety of recipes for different dishes. Simply enter an ingredient, and the app will display recipes that include it. You can then view detailed recipe instructions, save your favorites for later, and access all your saved recipes on the Favorites page.",
     "Weather App is a user-friendly web application that provides real-time weather information for any city worldwide. To enhance performance, I implemented a debouncer and an API aborter to handle requests efficiently. Additionally, I included a sleek loading animation to improve the overall user experience.",
@@ -50,7 +55,7 @@ export default function Projects() {
     "This a minimal shopping cart, here you can find the products, include them in your cart. All the products you have included in cart will be shown in the Cart page and the total price will also be displayed there. This project uses Recoil library for state management instead of Context API.",
     "This is a CSS-intensive project that I completed as an assignment for a company called Coalition. The task was to precisely replicate a given webpage, and this is the final result. I used ChartJS for the graph and TailwindCSS for styling. Functionality was not included, as it was not required for the assignment.",
     "This is my first project in the direction of learning serious CSS and styling skills. In this project, each card have an embedded animation. On hovering on any of card, the title of card moves up, and a description about the card holder and it's social media handles appears in smooth transition, and disappears smoothly on hovering out.",
-    "Made a simple tic-tac-toe game while learning React, this was my first project in React and made it by following the instructions from react.dev website's learning section. I made two versions, first one was my original, but was very verbose, second was of the website's which was short and easy to understand."
+    "Made a simple tic-tac-toe game while learning React, this was my first project in React and made it by following the instructions from react.dev website's learning section. I made two versions, first one was my original, but was very verbose, second was of the website's which was short and easy to understand.",
   ];
   let counter = 0;
   const divArray = [];

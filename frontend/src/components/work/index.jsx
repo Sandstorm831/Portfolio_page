@@ -11,6 +11,16 @@ export default function WorkDiv() {
       </div>
       <div className="flex flex-col h-max mx-2">
         <LeftDiv
+          Source={"/static/images/transactionsApp.png"}
+          Title={"Transactions App"}
+          Description={
+            "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails. The logout option is given in a popup menu which appears on clicking on the avatar on top right corner of the dashboard page."
+          }
+          github_link={"https://github.com/Sandstorm831/transactions_app"}
+          live_demo_link={"https://transactions-app-aleph.vercel.app/"}
+        />
+
+        <RightDiv
           Source={"/static/images/todo_fullstack1.png"}
           Title={"To-Do Applicatoin"}
           Description={
@@ -22,7 +32,7 @@ export default function WorkDiv() {
           live_demo_link={"https://portfoliodeployements.vercel.app/todoapp"}
         />
 
-        <RightDiv
+        <LeftDiv
           Source={"/static/images/recipe_app2.png"}
           Title={"Recipe Web Applicatoin"}
           Description={
@@ -34,27 +44,15 @@ export default function WorkDiv() {
           live_demo_link={"https://portfoliodeployements.vercel.app/recipeapp"}
         />
 
-        <LeftDiv
-          Source={"/static/images/weatherApp2.png"}
-          Title={"Weather Web Application"}
-          Description={
-            "Weather App is a user-friendly web application that provides real-time weather information for any city worldwide. To enhance performance, I implemented a debouncer and an API aborter to handle requests efficiently. Additionally, I included a sleek loading animation to improve the overall user experience."
-          }
-          github_link={
-            "https://github.com/Sandstorm831/Learning-react/tree/main/weather-app"
-          }
-          live_demo_link={"https://portfoliodeployements.vercel.app/weatherapp"}
-        />
         <div className="w-full h-24 mt-8 flex justify-center">
-          <div className="bg-white text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#E6DB74] duration-500 cursor-pointer" onClick={()=>navigate("/projects")}>
-            <div className="w-full flex justify-center ">
-              View All 
-            </div>
-            <div className="w-full flex justify-center ">
-              Projects
-            </div>
+          <div
+            className="bg-white text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#E6DB74] duration-500 cursor-pointer"
+            onClick={() => navigate("/projects")}
+          >
+            <div className="w-full flex justify-center ">View All</div>
+            <div className="w-full flex justify-center ">Projects</div>
           </div>
-        </div>  
+        </div>
       </div>
     </div>
   );
