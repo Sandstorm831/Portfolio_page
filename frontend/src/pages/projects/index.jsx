@@ -3,6 +3,8 @@ import "../../output.css";
 
 export default function Projects() {
   const github_links = [
+    "https://github.com/Sandstorm831/chessdom",
+    "https://github.com/Sandstorm831/stockfish_logger",
     "https://github.com/Sandstorm831/transactions_app",
     "https://github.com/Sandstorm831/learning-backend/tree/main/toDoApp",
     "https://github.com/Sandstorm831/Learning-react/tree/main/recipie-app",
@@ -14,6 +16,8 @@ export default function Projects() {
     "https://github.com/Sandstorm831/Learning-react/tree/main/Tic_Tac_Toe",
   ];
   const live_demo_links = [
+    "https://chessdom.vercel.app/",
+    "https://stockfish-terminal.vercel.app/",
     "https://transactions-app-aleph.vercel.app/",
     "https://portfoliodeployements.vercel.app/todoapp",
     "https://portfoliodeployements.vercel.app/recipeapp",
@@ -25,6 +29,8 @@ export default function Projects() {
     "https://portfoliodeployements.vercel.app/tictactoe",
   ];
   const sources = [
+    "/static/images/chessdom.png",
+    "/static/images/stockfishTerminal.png",
     "/static/images/transactionsApp.png",
     "/static/images/todo_fullstack1.png",
     "/static/images/recipe_app2.png",
@@ -36,6 +42,8 @@ export default function Projects() {
     "/static/images/tictactoe.png",
   ];
   const titles = [
+    "Chessdom chess applicatoin",
+    "Stockfish terminal",
     "Transactions App",
     "To-Do Applicatoin",
     "Recipe Web Applicatoin",
@@ -47,7 +55,9 @@ export default function Projects() {
     "Tic-Tac-Toe Game",
   ];
   const descriptions = [
-    "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails. The logout option is given in a popup menu which appears on clicking on the avatar on top right corner of the dashboard page.",
+    "Chessdom is an web-based chess application, whose name comes from combining Chess and Wisdom. Implemented two modes of gameplay in it, computer based gameplay where stockfish acts as your opponent and another is live gameplay where you can play chess with other fellow humans. Also build a game-archive with the name of hall of games, where each game which came to an valid end (resignation, check-mate or draw) in the live gameplay is stored.",
+    "Stockfish terminal is an online terminal for stockfish engine, any user can open and run any command on the terminal, thus can get the bestmove or evaluation metric for any given FEN configuration.",
+    "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails.",
     "This is a simple To-Do app where users can create tasks, mark them as done, and delete them.",
     "Recipe App is a web application that offers a wide variety of recipes for different dishes. Simply enter an ingredient, and the app will display recipes that include it. You can then view detailed recipe instructions, save your favorites for later, and access all your saved recipes on the Favorites page.",
     "Weather App is a user-friendly web application that provides real-time weather information for any city worldwide. To enhance performance, I implemented a debouncer and an API aborter to handle requests efficiently. Additionally, I included a sleek loading animation to improve the overall user experience.",

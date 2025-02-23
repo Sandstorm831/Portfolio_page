@@ -10,26 +10,27 @@ export default function WorkDiv() {
         </div>
       </div>
       <div className="flex flex-col h-max mx-2">
+
         <LeftDiv
-          Source={"/static/images/transactionsApp.png"}
-          Title={"Transactions App"}
+          Source={"/static/images/chessdom.png"}
+          Title={"Chessdom chess applicatoin"}
           Description={
-            "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails. The logout option is given in a popup menu which appears on clicking on the avatar on top right corner of the dashboard page."
+            "Chessdom is an web-based chess application, whose name comes from combining Chess and Wisdom. Implemented two modes of gameplay in it, computer based gameplay where stockfish acts as your opponent and another is live gameplay where you can play chess with other fellow humans. Also build a game-archive with the name of hall of games, where each game which came to an valid end (resignation, check-mate or draw) in the live gameplay is stored."
           }
-          github_link={"https://github.com/Sandstorm831/transactions_app"}
-          live_demo_link={"https://transactions-app-aleph.vercel.app/"}
+          github_link={
+            "https://github.com/Sandstorm831/chessdom"
+          }
+          live_demo_link={"https://chessdom.vercel.app"}
         />
 
         <RightDiv
-          Source={"/static/images/todo_fullstack1.png"}
-          Title={"To-Do Applicatoin"}
+          Source={"/static/images/transactionsApp.png"}
+          Title={"Transactions App"}
           Description={
-            "This is a simple To-Do app where users can create tasks, mark them as done, and delete them."
+            "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails."
           }
-          github_link={
-            "https://github.com/Sandstorm831/learning-backend/tree/main/toDoApp"
-          }
-          live_demo_link={"https://portfoliodeployements.vercel.app/todoapp"}
+          github_link={"https://github.com/Sandstorm831/transactions_app"}
+          live_demo_link={"https://transactions-app-aleph.vercel.app/"}
         />
 
         <LeftDiv
