@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import "../../output.css";
 export default function AboutMe() {
   return (
@@ -28,7 +27,10 @@ export default function AboutMe() {
           {<a href="https://www.sagemath.org/"> SageMath</a>} (Open-Source
           Mathematical Software), worked at{" "}
           {<a href="https://www.worldquant.com/">WorldQuant</a>} as a part-time
-          research consultant and have also worked at Intellimation.AI as a
+          research consultant, served as the Founding Engineer at{" "}
+          {<a href="https://www.nwtl.in/"> NWTL</a>} building its core systems
+          from ground up and have also worked at{" "}
+          {<a href="https://intellimation.ai">Intellimation.AI</a>} as a
           Software Developer. My journey revolved around Machine learning and
           Deep learning stuff in my first couple of years of college, after
           which I switched gears and took competitive programming seriously, I
@@ -45,14 +47,17 @@ export default function AboutMe() {
               here
             </a>
           }
-          . Leaving competitive programming behind I started full-stack
-          developement, in which I took MERN Stack as my stack and have been
-          learning my way through it till now.
+          . Leaving competitive programming behind I started development, and
+          have fallen in love with it from then :)
         </div>
       </div>
-      <a href="/resume.pdf"  className="w-full h-24 mt-8 flex justify-center" target="_blank" rel="noopener noreferrer" >
-        <div
-          className="bg-[#E6DB74] text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#EAF2EF] duration-500 cursor-pointer">
+      <a
+        href="/resume.pdf"
+        className="w-full h-24 mt-8 flex justify-center"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="bg-[#E6DB74] text-[#212121] max-xl:text-3xl xl:text-5xl w-2/12 flex flex-col justify-center rounded-lg hover:bg-[#EAF2EF] duration-500 cursor-pointer">
           <div className="w-full flex justify-center ">View My</div>
           <div className="w-full flex justify-center ">Resume</div>
         </div>
