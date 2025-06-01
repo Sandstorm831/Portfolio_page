@@ -10,27 +10,24 @@ export default function WorkDiv() {
         </div>
       </div>
       <div className="flex flex-col h-max mx-2">
-
         <LeftDiv
           Source={"/static/images/chessdom.png"}
           Title={"Chessdom chess applicatoin"}
           Description={
             "Chessdom is an web-based chess application, whose name comes from combining Chess and Wisdom. Implemented two modes of gameplay in it, computer based gameplay where stockfish acts as your opponent and another is live gameplay where you can play chess with other fellow humans. Also build a game-archive with the name of hall of games, where each game which came to an valid end (resignation, check-mate or draw) in the live gameplay is stored."
           }
-          github_link={
-            "https://github.com/Sandstorm831/chessdom"
-          }
+          github_link={"https://github.com/Sandstorm831/chessdom"}
           live_demo_link={"https://chessdom.vercel.app"}
         />
 
         <RightDiv
-          Source={"/static/images/transactionsApp.png"}
-          Title={"Transactions App"}
+          Source={"/static/images/stockfishTerminal.png"}
+          Title={"Stockfish terminal"}
           Description={
-            "This is a basic transactions app, to send and receive money. Any user can sign up in it, and the person will be accounted a random balance between ₹ 1-10000. On the dashboard, you can see all the users and find any user, to whom you want to send the money. In the sending money part, core DB transactions are used which will rollback if any of the DB query fails."
+            "Stockfish terminal is an online terminal for stockfish engine, any user can open and run any command on the terminal, thus can get the bestmove or evaluation metric for any given FEN configuration."
           }
-          github_link={"https://github.com/Sandstorm831/transactions_app"}
-          live_demo_link={"https://transactions-app-aleph.vercel.app/"}
+          github_link={"https://github.com/Sandstorm831/stockfish_logger"}
+          live_demo_link={"https://stockfish-terminal.vercel.app/"}
         />
 
         <LeftDiv
